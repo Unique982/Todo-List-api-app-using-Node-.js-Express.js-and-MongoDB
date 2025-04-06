@@ -9,8 +9,7 @@ const bodyParser = require('body-parser');
 const { default: mongoose } = require('mongoose');
 const cors = require('cors');
 
-const MONGO_URL = "mongodb+srv://root:root@meroproject.ezmub1g.mongodb.net/todo_api?retryWrites=true&w=majority&appName=MeroProject";
-
+const MONGO_URL = "add your db url"
 
 // Local Modules
 const rootDir = require('./utils/pathUtils');
